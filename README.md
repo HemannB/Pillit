@@ -53,5 +53,17 @@ Para verificar a qualidade e gerar o build de produção:
 ```bash
 npm run lint
 npm run typecheck
+npm run test
+npm run test:coverage
 npm run build
 ```
+
+Os testes E2E exigem os navegadores do Playwright. Na primeira execução:
+
+```bash
+npx playwright install chromium webkit
+npm run test:e2e
+```
+
+Em distribuições Linux, pode ser necessário instalar também as dependências de
+sistema indicadas pelo próprio Playwright.
