@@ -14,6 +14,10 @@
   "engines": {
     "node": ">=20.9.0"
   },
+  "overrides": {
+    "postcss": "8.5.23",
+    "sharp": "0.35.3"
+  },
   "dependencies": {
     "next": "16.2.11",
     "react": "19.2.8",
