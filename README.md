@@ -39,9 +39,19 @@ O Pill.it está na fase inicial de estruturação.
 
 ## Executando a base atual
 
-É necessário ter Node.js e npm instalados.
+É necessário ter Node.js 20.9 ou superior e npm instalados.
 
 ```bash
 npm install
+npm run dev
+```
+
+A aplicação estará disponível em `http://localhost:3000`.
+
+Para verificar a qualidade e gerar o build de produção:
+
+```bash
+npm run lint
+npm run typecheck
 npm run build
 ```
