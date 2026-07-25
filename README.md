@@ -1,5 +1,7 @@
 # Pill.it
 
+[![Continuous Integration](https://github.com/HemannB/Pillit/actions/workflows/ci.yml/badge.svg)](https://github.com/HemannB/Pillit/actions/workflows/ci.yml)
+
 Pill.it é uma aplicação web instalável para ajudar no acompanhamento diário de
 pílulas e ciclos de tomada.
 
@@ -39,7 +41,7 @@ O Pill.it está na fase inicial de estruturação.
 
 ## Executando a base atual
 
-É necessário ter Node.js 20.9 ou superior e npm instalados.
+É necessário ter Node.js 20.19 ou superior e npm instalados.
 
 ```bash
 npm install
