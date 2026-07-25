@@ -1,5 +1,7 @@
 # Pill.it
 
+[![Continuous Integration](https://github.com/HemannB/Pillit/actions/workflows/ci.yml/badge.svg)](https://github.com/HemannB/Pillit/actions/workflows/ci.yml)
+
 Pill.it é uma aplicação web instalável para ajudar no acompanhamento diário de
 pílulas e ciclos de tomada.
 
